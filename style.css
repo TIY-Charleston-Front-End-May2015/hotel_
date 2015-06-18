@@ -10,13 +10,14 @@
 }
 
 .subreddit {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   float: right;
-
+  max-height: 50px;
+  overflow:hidden;
 }
 
 a:visited {
@@ -40,5 +41,5 @@ a:visited {
   margin: .5em 0em;
   border: 1px solid #5F99CF;
   padding: 1rem;
-
+  text-overflow: clip;
 }
