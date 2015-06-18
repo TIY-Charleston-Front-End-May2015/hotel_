@@ -41,9 +41,3 @@ var page = {
   })
 }
 }
-
-var videoTmpl = _.template($('#videoTmpl').html());
-
-    _.each(newVids, function (el) {
-      $('.goHere').prepend(videoTmpl(el));
-    });
