@@ -2,6 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel ="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+<script type="post/html" id="postTmpl">
+<div class="row">
+  <a href="<%= url %>">
+    <div class="col-md-12">
+      <span class="subreddit"><%= subreddit %></span>
+        <span class="title"><%= title %></span>
+    </div>
+  </a>
+</div>
+</script>
+</head>
+<body>
+
+
   <title>Lazy Reddit</title>
 
 
@@ -25,7 +43,7 @@
     </div>
   </div>
 </body>
-
-<script src="bower_components/underscore/underscore.js"></script>
-<script src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type='text/javascript' src="main.js"></script>
 </html>
