@@ -6,16 +6,17 @@
 }
 
 .col-md-12 {
-  height: 75px;
+  height: 45px;
 }
 
 .subreddit {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .title {
-  font-size: 3.5em;
+  font-size: 3rem;
   float: right;
+
 }
 
 a:visited {
@@ -28,6 +29,16 @@ a:visited {
 }
 
 .subredditSearch {
-  width: 250px;
+  width: 50%;
+  height: 30px;
   margin: 10px 25%;
+}
+
+.row {
+  width: 100%;
+  background-color: #CEE3F8;
+  margin: .5em 0em;
+  border: 1px solid #5F99CF;
+  padding: 1rem;
+
 }
